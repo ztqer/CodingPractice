@@ -1,0 +1,16 @@
+public class Solution {
+    public boolean Find(int target,int [][] array) {
+                int rows = array.length;
+                int cols = array[0].length;
+                int i = 0,j= cols-1;
+            while(i<=rows-1&&j>=0){
+                if (target==array[i][j])
+                    return true;
+                else if(target<array[i][j])
+                    j--;
+                else
+                    i++;
+            }
+        return false;
+    }
+}
