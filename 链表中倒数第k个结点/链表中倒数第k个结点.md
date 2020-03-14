@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/ztqer/CodingPractice/blob/master/链表中倒数第k个结点/链表中倒数第k个结点.png)
 ```
 import java.util.Stack;
 /*
