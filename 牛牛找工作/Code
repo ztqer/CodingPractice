@@ -1,4 +1,4 @@
-https://github.com/ztqer/CodingPractice/blob/master/牛牛找工作.png?raw=true
+![image1](https://github.com/ztqer/CodingPractice/blob/master/牛牛找工作.png?raw=true)
 import java.util.*;
 public class Main{
     public static void main(String[] args){
