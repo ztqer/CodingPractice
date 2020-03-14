@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Stack;
+/*
+public class TreeNode {
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
+ 
+    public TreeNode(int val) {
+        this.val = val;
+ 
+    }
+ 
+}
+*/
+public class Solution {
+    public ArrayList<ArrayList<Integer> > Print(TreeNode pRoot) {
+        ArrayList<ArrayList<Integer>> result=new ArrayList<>();
+        boolean needReverse=false;
+        ArrayList<TreeNode> temp=new ArrayList<>();
+        if(pRoot==null){
+            return result;
+        }
+        temp.add(pRoot);
+        while(true){
+            if(temp.isEmpty()){
+                break;
+            }
+            ArrayList<Integer> layer=new ArrayList<>();
+            Stack s=new Stack<TreeNode>();
+            for(TreeNode n:temp){
+                if(needReverse){
+                    s.push(n.val);
+                    continue;
+                }
+                layer.add(n.val);
+            }
+            while(!s.isEmpty()){
+                layer.add((Integer)s.pop());
+            }
+            result.add(layer);
+            needReverse=!needReverse;
+            temp=nextLayer(temp);
+        }
+        return result;
+    }
+    private ArrayList<TreeNode> nextLayer(ArrayList<TreeNode> fathers){
+        ArrayList<TreeNode> children=new ArrayList<>();
+        for(TreeNode n:fathers){
+            if(n.left!=null){
+                children.add(n.left);
+            }
+            if(n.right!=null){
+                children.add(n.right);
+            }
+        }
+        return children;
+    }
+}
