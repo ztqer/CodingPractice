@@ -1,5 +1,5 @@
 ![](https://github.com/ztqer/CodingPractice/blob/master/链表中倒数第k个结点/链表中倒数第k个结点.png)
-```
+```java
 import java.util.Stack;
 /*
 public class ListNode {
