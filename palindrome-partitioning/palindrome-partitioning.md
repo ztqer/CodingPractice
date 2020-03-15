@@ -1,5 +1,5 @@
 ![](https://github.com/ztqer/CodingPractice/blob/master/palindrome-partitioning/palindrome-partitioning.png)
-```
+```java
 import java.util.*;
 public class Solution {
         public ArrayList<ArrayList<String>> partition(String s) {
