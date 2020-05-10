@@ -1,3 +1,5 @@
+![](https://github.com/ztqer/CodingPractice/blob/master/binary-tree-preorder-traversal/binary-tree-preorder-traversal.png)
+```java
 /**
  * Definition for binary tree
  * public class TreeNode {
@@ -30,3 +32,4 @@ public class Solution {
         return list;
     }
 }
+```
