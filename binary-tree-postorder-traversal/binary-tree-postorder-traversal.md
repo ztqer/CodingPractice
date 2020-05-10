@@ -1,4 +1,4 @@
-~[](https://github.com/ztqer/CodingPractice/blob/master/binary-tree-postorder-traversal/binary-tree-postorder-traversal.png)
+![](https://github.com/ztqer/CodingPractice/blob/master/binary-tree-postorder-traversal/binary-tree-postorder-traversal.png)
 ```java
 /**
  * Definition for binary tree
