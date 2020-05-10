@@ -1,3 +1,5 @@
+![](https://github.com/ztqer/CodingPractice/blob/master/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.png)
+```java
 /**
  * Definition for binary tree
  * public class TreeNode {
@@ -36,3 +38,4 @@ public class Solution {
         return FindMinDepth(nextLayer,count+1);
     }
 }
+```
