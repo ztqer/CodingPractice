@@ -1,3 +1,4 @@
+![](https://github.com/ztqer/CodingPractice/blob/master/最小的K个数/最小的K个数.png)
 ```java
 import java.util.*;
 
