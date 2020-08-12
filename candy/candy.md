@@ -1,3 +1,4 @@
+![](https://github.com/ztqer/CodingPractice/blob/master/candy/candy.png)
 ```java
 import java.util.*;
 
