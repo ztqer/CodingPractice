@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/ztqer/CodingPractice/blob/master/rotate-list/rotate-list.png)
 ```java
 import java.util.*;
 
