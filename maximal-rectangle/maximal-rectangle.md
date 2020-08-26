@@ -38,4 +38,4 @@ public class Solution {
     }
 }
 ```
-![](https://github.com/ztqer/CodingPractice/blob/master/maximal-rectangle/maximal-rectangle1.png)
+![](https://github.com/ztqer/CodingPractice/blob/master/maximal-rectangle/maximal-rectangle2.png)
