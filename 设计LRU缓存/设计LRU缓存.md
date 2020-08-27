@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/ztqer/CodingPractice/blob/master/%E8%AE%BE%E8%AE%A1LRU%E7%BC%93%E5%AD%98/%E8%AE%BE%E8%AE%A1LRU%E7%BC%93%E5%AD%98.png)
 ```java
 import java.util.*;
 
