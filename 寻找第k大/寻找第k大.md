@@ -1,4 +1,4 @@
-![]()
+![](https://github.com/ztqer/CodingPractice/blob/master/寻找第k大/寻找第k大.png)
 ```java
 import java.util.*;
 
