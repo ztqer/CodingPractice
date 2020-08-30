@@ -1,4 +1,5 @@
-![]()
+![](https://github.com/ztqer/CodingPractice/blob/master/distinct-subsequences/distinct-subsequences1.png)
+![](https://github.com/ztqer/CodingPractice/blob/master/distinct-subsequences/distinct-subsequences2.png)
 ```java
 import java.util.*;
 
